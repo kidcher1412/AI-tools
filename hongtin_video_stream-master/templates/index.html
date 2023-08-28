@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script>
+    function toggle_display() {
+        var x = document.getElementById("video_can_show");
+        if (x.style.display == "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+}
+    </script>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8  offset-lg-2 ">
+              <h3 class="mt-5">Live Streaming</h3>
+              <button onclick="toggle_display()">Toggle display</button>
+              <div id="video_can_show" style="display: none">
+                  <img src="{{ url_for('video_feed') }}" width="50%">
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

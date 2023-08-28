@@ -1,0 +1,114 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+.column {
+  border-top: 60px solid red;
+  border-right: 5px solid red;
+  border-left: 5px solid red;
+  border-bottom: 5px solid red;
+  border-radius: 24px;
+  background-color: #fff;
+}
+.lable-input {
+  font-size: 16px;
+  margin-top: 9px;
+}
+.column-content {
+  position: relative;
+  margin-top: 40px;
+}
+.content-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-title img {
+  width: 160px;
+  height: 160px;
+}
+.content-title-require {
+  font-size: 16px;
+  margin-left: 24px;
+}
+
+.content-search {
+  margin: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  width: 380px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+}
+
+.td1 {
+  color: red;
+}
+
+.btn-search {
+  background-color: #fff;
+  border: 4px solid red;
+  color: rgb(5, 3, 3);
+  padding: 8px 32px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 48px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+/* .chitiet{
+    font-size: 22px;
+} */
+.table {
+  width: 800px;
+  font-size: 20px;
+}
+.table tr th {
+  margin-left: 15px;
+}
+.congratulations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.congratulations-img {
+  height: 160px;
+  width: 160px;
+}
+.congratulations-content {
+  font-size: 16px;
+}
+.congratulations-title {
+}
+.congratulation-praise {
+}
+
+.violation-information-form {
+  border-top: 12px solid red;
+  border-right: 4px solid red;
+  border-left: 4px solid red;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 160px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+ 
+}
+.violation-information-form p{
+    margin : 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.vachngan {
+  background-color: red;
+  width: 100%;
+  height: 12px;
+}
